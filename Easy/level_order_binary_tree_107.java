@@ -1,3 +1,12 @@
+//Print the nodes in a binary tree level-wise. For example, the following should print 1, 2, 3, 4, 5.
+//   1
+//  / \
+// 2   3
+//    / \
+//   4   5
+
+// This Solution takes O(N) time and space, as we need to run through all the elements.
+
 import java.util.*;
 
 class level_order_binary_tree_107{
